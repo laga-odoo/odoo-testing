@@ -9,7 +9,10 @@
     'category': 'Training',
     'version': '0.2',
     'depends': ['base'],
-    'data': [
+    'data': [ # loads the files in order
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
+        'views/academy_menuitems.xml',
         'data/academy_demo.xml',
         
     ],
